@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7e8c3c14ff33b199b4a0838993eb8423",
+    "content-hash": "71adf82f798625aa75464fe83dba2e8c",
     "packages": [
         {
             "name": "brick/math",
@@ -505,6 +505,78 @@
                 }
             ],
             "time": "2023-10-06T06:47:41+00:00"
+        },
+        {
+            "name": "explicador/e2payments-php-sdk",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Explicador/e2Payments-php-sdk.git",
+                "reference": "545fb745bc9b3ba1f5dab1f5513d5ff780eb604f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Explicador/e2Payments-php-sdk/zipball/545fb745bc9b3ba1f5dab1f5513d5ff780eb604f",
+                "reference": "545fb745bc9b3ba1f5dab1f5513d5ff780eb604f",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.0",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Explicador\\E2PaymentsPhpSdk\\Providers\\ServiceProvider"
+                    ],
+                    "aliases": {
+                        "E2Payments": "Explicador\\E2PaymentsPhpSdk\\Facade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Explicador\\E2PaymentsPhpSdk\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Explicador Team",
+                    "email": "developers@explicador.co.mz",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Pacote de integração de pagamentos online por MPesa, eMola, MKesh, conta móvel, BIM, Master Card e mais",
+            "homepage": "https://github.com/explicador/e2payments-php-sdk",
+            "keywords": [
+                "e2payments",
+                "emola",
+                "explicador",
+                "jose-seie",
+                "master-card",
+                "mkesh",
+                "mpesa",
+                "mpesa-api",
+                "mpesa-sdk",
+                "payment-gateway",
+                "payment-integration",
+                "payment-solution",
+                "visa",
+                "vodacom-mozambique"
+            ],
+            "support": {
+                "issues": "https://github.com/Explicador/e2Payments-php-sdk/issues",
+                "source": "https://github.com/Explicador/e2Payments-php-sdk/tree/v1.0.4"
+            },
+            "time": "2022-04-19T22:46:21+00:00"
         },
         {
             "name": "fruitcake/php-cors",
