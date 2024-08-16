@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<title>E-SHOP HTML Template</title>
+	<title>Nhonga Store HTML Template</title>
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
@@ -44,7 +44,7 @@
 		<div id="top-header">
 			<div class="container">
 				<div class="pull-left">
-					<span>Welcome to E-shop!</span>
+					<span>Welcome to Nhonga Store!</span>
 				</div>
 				<div class="pull-right">
 					<ul class="header-top-links">
@@ -385,7 +385,7 @@
 					<span class="menu-header">Menu <i class="fa fa-bars"></i></span>
 					<ul class="menu-list">
 						<li><a href="#">Home</a></li>
-						<li><a href="#">Shop</a></li>
+						{{-- <li><a href="#">Shop</a></li>
 						<li class="dropdown mega-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Women <i class="fa fa-caret-down"></i></a>
 							<div class="custom-menu">
 								<div class="row">
@@ -533,7 +533,9 @@
 								<li><a href="product-page.html">Product Details</a></li>
 								<li><a href="checkout.html">Checkout</a></li>
 							</ul>
-						</li>
+						</li> --}}
+						<li><a href="/product">Produto</a></li>
+
 					</ul>
 				</div>
 				<!-- menu nav -->
@@ -1416,7 +1418,7 @@
 					<div class="footer">
 						<!-- footer logo -->
 						<div class="footer-logo">
-							<a class="logo" href="#">
+							<a class="logo" href="/">
 		            <img src="./img/logo.png" alt="">
 		          </a>
 						</div>
