@@ -567,10 +567,10 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="./img/Apple-iMac.png" alt="">
+								<img src="./img/Dell-Optiplex.png" alt="">
 							</div>
 							<div class="product-view">
-								<img src="./img/Apple-iMac.png" alt="">
+								<img src="./img/Dell-Optiplex.png" alt="">
 							</div>
 							{{-- <div class="product-view">
 								<img src="./img/main-product03.jpg" alt="">
@@ -581,16 +581,16 @@
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="./img/Apple-iMac.png" alt="">
+								<img src="./img/Dell-Optiplex.png" alt="">
 							</div>
 							<div class="product-view">
-								<img src="./img/Apple-iMac.png" alt="">
+								<img src="./img/Dell-Optiplex.png" alt="">
 							</div>
 							<div class="product-view">
-								<img src="./img/Apple-iMac.png" alt="">
+								<img src="./img/Dell-Optiplex.png" alt="">
 							</div>
 							<div class="product-view">
-								<img src="./img/Apple-iMac.png" alt="">
+								<img src="./img/Dell-Optiplex.png" alt="">
 							</div>
 						</div>
 					</div>
@@ -600,8 +600,8 @@
 								<span>New</span>
 								<span class="sale">-20%</span>
 							</div>
-							<h2 class="product-name">iMac</h2>
-							<h3 class="product-price">350.750,00 MZN<del class="product-old-price">400.000,00 MZN</del></h3>
+							<h2 class="product-name">Dell Desktop</h2>
+							<h3 class="product-price">25.000,00 MZN<del class="product-old-price">30.000,00 MZN</del></h3>
 							<div>
 								<div class="product-rating">
 									<i class="fa fa-star"></i>
@@ -637,7 +637,7 @@
 									<span class="text-uppercase">QTY: </span>
 									<input class="input" type="number">
 								</div>
-								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+								<a href="/checkout" class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Adicionar no Carinho</a>
 								<div class="pull-right">
 									<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
 									<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
@@ -805,7 +805,7 @@
 							<div class="product-btns">
 								<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
 								<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
-								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Adicionar ao Carrinho</button>
 							</div>
 						</div>
 					</div>
@@ -835,7 +835,7 @@
 							<div class="product-btns">
 								<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
 								<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
-								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Adicionar no Carinho</button>
 							</div>
 						</div>
 					</div>
@@ -865,7 +865,7 @@
 							<div class="product-btns">
 								<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
 								<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
-								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Adicionar no Carinho</button>
 							</div>
 						</div>
 					</div>
@@ -896,7 +896,7 @@
 							<div class="product-btns">
 								<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
 								<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
-								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Adicionar no Carinho</button>
 							</div>
 						</div>
 					</div>
