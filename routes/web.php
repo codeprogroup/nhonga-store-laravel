@@ -6,6 +6,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/sobre', function () {
-    return view('front-end.sobre');
-});
+// Route::get('/sobre', function () {
+//     return view('front-end.sobre');
+// });
