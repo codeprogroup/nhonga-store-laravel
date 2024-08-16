@@ -21,4 +21,42 @@ class PaymentController extends Controller
 
         dd($result);
     }
+
+    public function store(Request $request)
+    {
+        // Validação dos dados de entrada
+        $validatedData = $request->validate([
+            'first_name' => 'string|max:255',
+            'last_name' => 'string|max:255',
+            'email' => 'email|max:255',
+            'address' => 'string',
+            'tel' => 'required|string|max:20',
+            'amount' => 'required',
+            'reference' => 'required',
+        ]);
+
+        try {
+            // Configuração do cliente Mpesa com variáveis de ambiente
+            $mpesa = new Mpesa();
+            $mpesa->setClientId(env('CLIENTID'));
+            $mpesa->setClientSecret(env('SECRETKEY'));
+            $mpesa->setWalletId(env('WALLETID'));
+
+            // Execução da transação
+            $result = $mpesa->c2b($validatedData['tel'], $validatedData['amount'], $validatedData['reference']);
+
+            // Verificando se a transação foi bem-sucedida
+            if ($result && $result->status === 'success') {
+                // Redireciona com mensagem de sucesso
+                return redirect()->back()->with('success', 'Pagamento efectuado com sucesso');
+            } else {
+                // Lida com falha na transação (por exemplo, se $result->status não for 'success')
+                return redirect()->back()->with('error', 'Falha ao processar o pagamento. Por favor, tente novamente.');
+            }
+        } catch (\Exception $e) {
+            // Captura qualquer exceção e redireciona com uma mensagem de erro
+            return redirect()->back()->with('error', 'Ocorreu um erro: ' . $e->getMessage());
+        }
+    }
+
 }
